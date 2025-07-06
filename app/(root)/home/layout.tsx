@@ -1,4 +1,6 @@
-export default funtion HomeLayout({children}: {children: ReactNode}){
+import {ReactNode} from "react";
+
+export default function HomeLayout({children}: {children: ReactNode}){
   return(
     <>
       {children}
